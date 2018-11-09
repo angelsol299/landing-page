@@ -81,20 +81,6 @@
 
 .contact-body {
   margin: auto;
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   position: fixed;
   width: 100%;
   height: 100%;
@@ -109,6 +95,24 @@
   height: 550px;
   background: white;
   color: black;
-  border: 2px solid lightblue;
   margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: "Anton", sans-serif;
+}
+
+.contact-grid p {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+}
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 60px;
+  padding-right: 5rem;
 }
