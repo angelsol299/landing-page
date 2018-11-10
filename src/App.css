@@ -48,11 +48,12 @@
   font-size: 66px;
   font-weight: bold;
   color: white;
+  padding-top: 10px;
 }
 
 .banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
+  border-top: 3px solid white;
+
   margin: auto;
 }
 
