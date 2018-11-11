@@ -47,25 +47,19 @@ class Resume extends Component {
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus illum iste, recusandae, facilis obcaecati iusto"
               }
             />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "3px solid #fff" }} />
+            <br />
             <h2>Experience</h2>
             <Experience
               startYear={2018}
               endYear={2018}
               jobName={"Front End Developer Intern"}
               jobDescription={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus illum iste, recusandae, facilis obcaecati iusto"
+                "I had worked at ICA Banken as a front end developers implementing react JS and typesrcipt"
               }
             />
-            <Experience
-              startYear={2018}
-              endYear={2018}
-              jobName={"Front End Developer Intern"}
-              jobDescription={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus illum iste, recusandae, facilis obcaecati iusto"
-              }
-            />
-            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <hr style={{ borderTop: "3px solid #fff" }} />
+            <br />
             <h2>Skills</h2>
             <Skills skill="JavaScript" progress={100} />
             <Skills skill="React JS" progress={80} />
