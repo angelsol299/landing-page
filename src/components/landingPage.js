@@ -13,7 +13,7 @@ class LandingPage extends Component {
               className="avatar-img"
             />
             <div className="banner-text">
-              <h1>Jr. Front End Developer</h1>
+              <h1>Front End Developer</h1>
               <hr />
               <p>
                 HTML | CSS | Boostrap | JavaScript | React JS | Redux | NodeJS |

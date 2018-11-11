@@ -27,7 +27,10 @@ class Contact extends Component {
               <List>
                 <ListItem>
                   <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    style={{
+                      fontSize: "25px",
+                      fontFamily: "Anton"
+                    }}
                   >
                     {" "}
                     <i className="fa fa-phone-square" aria-hidden="true" />
