@@ -7,7 +7,7 @@ import Skills from "./skills";
 class Resume extends Component {
   render() {
     return (
-      <div style={{ textAlign: "center" }}>
+      <div>
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
@@ -17,25 +17,27 @@ class Resume extends Component {
                 style={{ height: "200px" }}
               />
             </div>
-            <h2 style={{ paddingTop: "2em" }}>Angel Osoria</h2>
-            <h4 style={{ color: "grey" }}>Front End Developer</h4>
-            <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus illum iste, recusandae, facilis obcaecati iusto
-              numquam quo culpa incidunt vel nostrum quam eligendi! Eligendi
-              aperiam quia aspernatur enim suscipit error.
-            </p>
-            <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
-            <h5>Address</h5>
-            <p>Norra statationsgatan, Stockholm</p>
-            <h5>Phone</h5>
-            <p>3314050542</p>
-            <h5>Email</h5>
-            <p>info@angelosoria.com</p>
-            <h5>Web</h5>
-            <p>www.angelosoria.com</p>
-            <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
+            <div style={{ textAlign: "center" }}>
+              <h2 style={{ paddingTop: "2em" }}>Angel Osoria</h2>
+              <h4 style={{ color: "grey" }}>Front End Developer</h4>
+              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellendus illum iste, recusandae, facilis obcaecati iusto
+                numquam quo culpa incidunt vel nostrum quam eligendi! Eligendi
+                aperiam quia aspernatur enim suscipit error.
+              </p>
+              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
+              <h5>Address</h5>
+              <p>Norra statationsgatan, Stockholm</p>
+              <h5>Phone</h5>
+              <p>3314050542</p>
+              <h5>Email</h5>
+              <p>info@angelosoria.com</p>
+              <h5>Web</h5>
+              <p>www.angelosoria.com</p>
+              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
+            </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
