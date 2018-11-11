@@ -10,9 +10,16 @@ class App extends Component {
       <div className="demo-big-content">
         <Layout>
           <Header
+            style={{ position: "fixed" }}
             className="header-color"
             title={
-              <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Link
+                style={{
+                  textDecoration: "none",
+                  color: "white"
+                }}
+                to="/"
+              >
                 My Portfolio
               </Link>
             }

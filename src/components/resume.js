@@ -7,7 +7,7 @@ import Skills from "./skills";
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div style={{ marginTop: "70px" }}>
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>

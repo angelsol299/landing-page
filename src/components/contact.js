@@ -4,7 +4,7 @@ import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
 class Contact extends Component {
   render() {
     return (
-      <div className="contact-body">
+      <div className="contact-body" style={{ marginTop: "70px" }}>
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Angel Osoria</h2>

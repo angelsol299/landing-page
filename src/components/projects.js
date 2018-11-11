@@ -132,7 +132,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="category-tabs">
+      <div className="category-tabs" style={{ marginTop: "60px" }}>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
@@ -146,7 +146,7 @@ class Projects extends Component {
 
         <Grid>
           <Cell col={12}>
-            <div className="content">{this.toggleCategories()}</div>
+            <div className="content">{this.toggleCategories()} </div>
           </Cell>
         </Grid>
       </div>
