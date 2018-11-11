@@ -1,3 +1,4 @@
+/*main header*/
 .header-color {
   background: #2193b0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -12,6 +13,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+/*Landing Page*/
 .landing-grid {
   background: #2193b0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -25,11 +27,11 @@
     #2193b0
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 20%;
+  position: absolute;
 }
 
 .avatar-img {
@@ -84,7 +86,7 @@
 
 .contact-body {
   margin: auto;
-  position: fixed;
+  position: relative;
   width: 100%;
   height: 100%;
   justify-content: center;
