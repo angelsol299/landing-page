@@ -119,6 +119,7 @@
 }
 
 .contact-grid h2 {
+  font-size: 66px;
   font-family: "Karla", sans-serif;
   color: #085078; /* fallback for old browsers */
   color: -webkit-linear-gradient(
@@ -134,8 +135,10 @@
 }
 
 .contact-grid p {
+  text-align: justify;
+  text-justify: inter-character;
   font-family: "Ubuntu", sans-serif;
-  line-height: 40px;
+  line-height: 50px;
   color: #085078; /* fallback for old browsers */
   color: -webkit-linear-gradient(
     to right,
@@ -148,6 +151,33 @@
     #085078
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+.short-text {
+  display: none;
+}
+
+@media only screen and (max-width: 440px) {
+  .contact-grid p {
+    text-justify: center;
+    content: "amigos";
+  }
+  .full-text {
+    display: none;
+  }
+
+  .short-text {
+    display: inline-block;
+    font-size: 24px;
+    text-align: justify;
+    text-justify: inter-character;
+    line-height: 50px;
+  }
+  .contact-grid h2 {
+    margin-top: -20px;
+    font-size: 45px;
+  }
+}
+
 .contact-grid hr {
   border-top: 5px dotted black;
   width: 50%;
