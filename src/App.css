@@ -123,7 +123,7 @@
 }
 
 .contact-grid p {
-  font-family: "Oxygen", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
 }
 .contact-grid hr {
@@ -156,4 +156,11 @@
 
   color: white;
   padding: 2em;
+}
+
+@media only screen and (max-width: 440px) {
+  .resume-right-col {
+    text-align: center;
+    text-justify: inter-word;
+  }
 }
