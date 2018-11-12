@@ -28,14 +28,25 @@ class Resume extends Component {
                 omnis quae quidem dolores.
               </p>
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
-              <h5>Address</h5>
+              <h5>
+                <b>Address</b>
+              </h5>
               <p>Norra statationsgatan, Stockholm</p>
-              <h5>Phone</h5>
+              <h5>
+                <b>Phone</b>
+              </h5>
               <p>3314050542</p>
-              <h5>Email</h5>
+              <h5>
+                <b>Email</b>
+              </h5>
               <p>info@angelosoria.com</p>
-              <h5>Web</h5>
-              <p>www.angelosoria.com</p>
+              <h5>
+                <b>Web</b>
+              </h5>
+              <p>
+                <i>www.angelosoria.com</i>
+              </p>
+
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
             </div>
           </Cell>
@@ -50,7 +61,6 @@ class Resume extends Component {
               }
             />
             <hr style={{ borderTop: "3px solid #fff" }} />
-            <br />
             <h2>Experience</h2>
             <Experience
               startYear={2018}
@@ -61,7 +71,6 @@ class Resume extends Component {
               }
             />
             <hr style={{ borderTop: "3px solid #fff" }} />
-            <br />
             <h2>Skills</h2>
             <Skills skill="JavaScript" progress={100} />
             <Skills skill="React JS" progress={80} />
