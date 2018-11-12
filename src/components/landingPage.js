@@ -16,8 +16,8 @@ class LandingPage extends Component {
               <h1>Front End Developer</h1>
               <hr />
               <p>
-                HTML | CSS | Boostrap | JavaScript | React JS | Redux | NodeJS |
-                Firebase |Typescript
+                HTML | CSS | Boostrap | JavaScript | React JS | Redux | Firebase
+                |Typescript
               </p>
               <div className="social-links">
                 {/* Linkedin*/}
