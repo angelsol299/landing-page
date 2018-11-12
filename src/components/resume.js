@@ -23,9 +23,9 @@ class Resume extends Component {
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellendus illum iste, recusandae, facilis obcaecati iusto
-                numquam quo culpa incidunt vel nostrum quam eligendi! Eligendi
-                aperiam quia aspernatur enim suscipit error.
+                Assumenda cum tempore est esse explicabo sunt earum numquam?
+                Ducimus, incidunt ipsa fuga maiores at sunt illum, accusantium
+                omnis quae quidem dolores.
               </p>
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
               <h5>Address</h5>
@@ -46,7 +46,7 @@ class Resume extends Component {
               endYear={2019}
               schoolName={"Nackademin"}
               schoolDescription={
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit Repellendus illum iste, recusandae, facilis obcaecati iusto"
+                "A 2 years Front End Developer degree with focus on JavaScript(Vanilla and React JS), HTML5, CSS5(SASS and LESS), PHP, MySQL and CMS."
               }
             />
             <hr style={{ borderTop: "3px solid #fff" }} />
@@ -55,9 +55,9 @@ class Resume extends Component {
             <Experience
               startYear={2018}
               endYear={2018}
-              jobName={"Front End Developer Intern"}
+              jobName={"ICA Banken"}
               jobDescription={
-                "I had worked at ICA Banken as a front end developers implementing react JS and typesrcipt"
+                "I had worked at ICA Banken for 3 month  as a front end developer intern implementing react JS and typesrcipt."
               }
             />
             <hr style={{ borderTop: "3px solid #fff" }} />
