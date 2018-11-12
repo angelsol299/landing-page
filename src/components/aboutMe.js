@@ -17,13 +17,14 @@ class About extends Component {
               }}
             >
               I've studied management, entrepreneurship, economics and latelty
-              Front End Development. I've discover my passion for technology
-              since I was a teenagare but I've never developed a professional
-              interest about it untill the past year. I decieded to go into
-              software development when I wrote my master thesis in economics in
-              2017 about the relationship between automation and unemployement
-              and once I discovered that most jobs will be automated in the near
-              future.
+              <b> Front End Development.</b> I've discover my passion for
+              technology since I was a teenagare but I've never developed a
+              professional interest about it untill the past year. I decieded to
+              go into <b> software development</b> when I wrote my master thesis
+              in economics in 2017 about the relationship between automation and
+              unemployement. Once I discovered that most jobs will be automated
+              in the near future I decided it was time to start this excited
+              journey and to be valuable in the job market for longer.
             </p>
           </Cell>
         </Grid>

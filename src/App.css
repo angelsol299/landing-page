@@ -119,12 +119,34 @@
 }
 
 .contact-grid h2 {
-  font-family: "Anton", sans-serif;
+  font-family: "Karla", sans-serif;
+  color: #085078; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #85d8ce,
+    #085078
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #85d8ce,
+    #085078
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .contact-grid p {
   font-family: "Ubuntu", sans-serif;
-  font-weight: bold;
+  line-height: 40px;
+  color: #085078; /* fallback for old browsers */
+  color: -webkit-linear-gradient(
+    to right,
+    #85d8ce,
+    #085078
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(
+    to right,
+    #85d8ce,
+    #085078
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .contact-grid hr {
   border-top: 5px dotted black;
