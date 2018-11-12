@@ -17,7 +17,7 @@ class LandingPage extends Component {
               <hr />
               <p>
                 HTML | CSS | Boostrap | JavaScript | React JS | Redux | Firebase
-                |Typescript
+                | Node JS |Typescript
               </p>
               <div className="social-links">
                 {/* Linkedin*/}
