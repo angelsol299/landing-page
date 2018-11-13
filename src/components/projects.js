@@ -31,12 +31,13 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://image.ibb.co/iAcU20/Captura-de-pantalla-2018-11-13-a-las-22-12-09.png) center / cover"
+                  "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
               }}
-            >
-              Poketimes
-            </CardTitle>
-            <CardText>Technologies: React and redux</CardText>
+            />
+            <CardText>
+              App: Poketimes <br />
+              Technologies: React and redux
+            </CardText>
             <CardActions border>
               <Button
                 href="https://github.com/angelsol299/react-redux-poketimes"
@@ -60,14 +61,21 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://image.ibb.co/ca8aaL/Captura-de-pantalla-2018-11-13-a-las-22-16-38.png) right / cover"
+                  "url(https://spin.atomicobject.com/wp-content/uploads/20171005133008/React-Typescript.png) center / cover"
               }}
-            >
-              Tic Tac Toe Game
-            </CardTitle>
-            <CardText>Technologies: React and typescript.</CardText>
+            />
+            <CardText>
+              App: Tic Tac Toe Game <br />
+              Technologies: React and typescript.
+            </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button
+                href="https://github.com/angelsol299/tictactoeapp"
+                colored
+                target="_blank"
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
@@ -83,7 +91,7 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover"
+                  "url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover"
               }}
             >
               React Project #1
