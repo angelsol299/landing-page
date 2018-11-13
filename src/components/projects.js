@@ -31,12 +31,12 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover"
+                  "url(https://image.ibb.co/iAcU20/Captura-de-pantalla-2018-11-13-a-las-22-12-09.png) center / cover"
               }}
             >
               Poketimes
             </CardTitle>
-            <CardText>Technologies: React, redux, and typescript</CardText>
+            <CardText>Technologies: React and redux</CardText>
             <CardActions border>
               <Button
                 href="https://github.com/angelsol299/react-redux-poketimes"
@@ -60,17 +60,12 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover"
+                  "url(https://image.ibb.co/ca8aaL/Captura-de-pantalla-2018-11-13-a-las-22-16-38.png) right / cover"
               }}
             >
-              React Project #3
+              Tic Tac Toe Game
             </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              voluptatum sequi id ut officia! Tempora repudiandae beatae
-              architecto rem necessitatibus distinctio hic, non inventore
-              molestias id sunt eligendi? Reprehenderit, distinctio?
-            </CardText>
+            <CardText>Technologies: React and typescript.</CardText>
             <CardActions border>
               <Button colored>Github</Button>
               <Button colored>CodePen</Button>
