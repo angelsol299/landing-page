@@ -12,13 +12,14 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src="https://www.shareicon.net/data/512x512/2015/09/24/106420_man_512x512.png"
+                className="img-resume"
+                src="https://image.ibb.co/ixaOAA/myAvatar.png"
                 alt="avatar"
                 style={{ height: "200px" }}
               />
             </div>
             <div style={{ textAlign: "center" }}>
-              <h2 style={{ paddingTop: "2em" }}>Angel Osoria</h2>
+              <h2 style={{ paddingTop: "0em" }}>Angel Osoria</h2>
               <h4 style={{ color: "grey" }}>Front End Developer</h4>
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
               <p>

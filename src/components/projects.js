@@ -34,16 +34,17 @@ class Projects extends Component {
                   "url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover"
               }}
             >
-              React Project #2
+              Poketimes
             </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              voluptatum sequi id ut officia! Tempora repudiandae beatae
-              architecto rem necessitatibus distinctio hic, non inventore
-              molestias id sunt eligendi? Reprehenderit, distinctio?
-            </CardText>
+            <CardText>Technologies: React, redux, and typescript</CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button
+                href="https://github.com/angelsol299/react-redux-poketimes"
+                colored
+                target="_blank"
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>

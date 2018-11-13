@@ -156,7 +156,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 540px) {
   .contact-grid p {
     text-justify: center;
     content: "amigos";
@@ -215,4 +215,8 @@
     text-align: center;
     text-justify: inter-word;
   }
+}
+
+.img-resume {
+  border-radius: 30%;
 }
