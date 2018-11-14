@@ -22,9 +22,9 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid" style={{marginTop: "40px"}}>
+        <div className="projects-grid" style={{marginTop: "20px"}}>
           {/*Project 1 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -54,7 +54,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 2 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto"}}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto"}}>
             <CardTitle
               style={{
                 color: "black",
@@ -84,7 +84,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 3 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -111,7 +111,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 4 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -140,7 +140,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 5 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
@@ -169,7 +169,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 6 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
