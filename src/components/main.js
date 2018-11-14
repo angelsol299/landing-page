@@ -3,7 +3,7 @@ import LandingPage from "./landingPage";
 import { Switch, Route } from "react-router-dom";
 import AboutMe from "./aboutMe";
 import Contact from "./contact";
-import Projects from "./projects";
+import Projects from "./projects/projects";
 import Resume from "./resume";
 
 const Main = () => (
