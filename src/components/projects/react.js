@@ -29,7 +29,7 @@ class Reactjs extends Component{
               }}
             />
             <CardText>
-              <b>App: Poketimes</b> <br />
+              <b><span style={{fontSize:"20px", color:"darkblue"}}>App: Poketimes</span></b> <br />
               Technologies: React and redux
             </CardText>
             <CardActions border>
@@ -59,7 +59,7 @@ class Reactjs extends Component{
               }}
             /> 
             <CardText>
-              <b>App: Tic Tac Toe Game</b><br />
+              <b><span style={{fontSize:"20px", color:"darkblue"}}>App: Tic Tac Toe Game</span></b><br />
               Technologies: React and Typescript.
             </CardText>
             <CardActions border>
@@ -90,7 +90,7 @@ class Reactjs extends Component{
             >
             </CardTitle>
             <CardText>
-               <b>App: Todo App</b><br />
+               <b><span style={{fontSize:"20px", color:"darkblue"}}>App: Todo App</span></b><br />
               Technologies: React and Redux.
             </CardText>
             <CardActions border>
@@ -117,7 +117,7 @@ class Reactjs extends Component{
             >
             </CardTitle>
             <CardText>
-               <b>App: InstaLink</b><br />
+               <b><span style={{fontSize:"20px", color:"darkblue"}}>App: InstaLink</span></b><br />
               Technologies: React, Redux and Firebase.
             </CardText>
             <CardActions border>
@@ -146,12 +146,12 @@ class Reactjs extends Component{
             >
             </CardTitle>
             <CardText>
-               <b>App: InstaLink</b><br />
+               <b><span style={{fontSize:"20px", color:"darkblue"}}>App: Contact Manager</span></b><br />
               Technologies: React, Redux and Firebase.
             </CardText>
             <CardActions border>
               <Button 
-                 href="https://github.com/angelsol299/instalink"
+                 href="https://github.com/angelsol299/contactmanager"
                 colored
                 target="_blank"
               >Github</Button>
@@ -175,7 +175,7 @@ class Reactjs extends Component{
             >
             </CardTitle>
             <CardText>
-               <b>App: InstaLink</b><br />
+               <b><span style={{fontSize:"20px", color:"darkblue"}}>App: InstaLink</span></b><br />
               Technologies: React, Redux and Firebase.
             </CardText>
             <CardActions border>
