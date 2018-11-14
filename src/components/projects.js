@@ -61,12 +61,12 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://spin.atomicobject.com/wp-content/uploads/20171005133008/React-Typescript.png) center / cover"
+                  "url(https://cdn-images-1.medium.com/max/1200/1*Ukhx76VQ8E6JXEW7xfIzSA.png) center / cover"
               }}
             /> 
             <CardText>
               <b>App: Tic Tac Toe Game</b><br />
-              Technologies: React and typescript.
+              Technologies: React and Typescript.
             </CardText>
             <CardActions border>
               <Button
@@ -97,10 +97,99 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
                <b>App: Todo App</b><br />
-              Technologies: React and typescript.
+              Technologies: React and Redux.
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
+              <Button           href="https://github.com/angelsol299/React-redux-todoapp"
+                 colored
+                 target="_blank">Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LivedDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "black" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*project 4 */}
+          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "176px",
+                width: "100%",
+                background:
+                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+              }}
+            >
+            </CardTitle>
+            <CardText>
+               <b>App: InstaLink</b><br />
+              Technologies: React, Redux and Firebase.
+            </CardText>
+            <CardActions border>
+              <Button 
+                 href="https://github.com/angelsol299/instalink"
+                colored
+                target="_blank"
+              >Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LivedDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "black" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*project 5 */}
+          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "176px",
+                width: "100%",
+                background:
+                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+              }}
+            >
+            </CardTitle>
+            <CardText>
+               <b>App: InstaLink</b><br />
+              Technologies: React, Redux and Firebase.
+            </CardText>
+            <CardActions border>
+              <Button 
+                 href="https://github.com/angelsol299/instalink"
+                colored
+                target="_blank"
+              >Github</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LivedDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "black" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/*project 6 */}
+          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "176px",
+                width: "100%",
+                background:
+                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+              }}
+            >
+            </CardTitle>
+            <CardText>
+               <b>App: InstaLink</b><br />
+              Technologies: React, Redux and Firebase.
+            </CardText>
+            <CardActions border>
+              <Button 
+                 href="https://github.com/angelsol299/instalink"
+                colored
+                target="_blank"
+              >Github</Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
