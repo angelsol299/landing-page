@@ -22,7 +22,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className="projects-grid">
+        <div className="projects-grid" style={{marginTop: "40px"}}>
           {/*Project 1 */}
           <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
             <CardTitle
@@ -35,7 +35,7 @@ class Projects extends Component {
               }}
             />
             <CardText>
-              App: Poketimes <br />
+              <b>App: Poketimes</b> <br />
               Technologies: React and redux
             </CardText>
             <CardActions border>
@@ -54,7 +54,7 @@ class Projects extends Component {
             </CardMenu>
           </Card>
           {/*project 2 */}
-          <Card shadow={5} style={{ minWith: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWith: "450", margin: "auto"}}>
             <CardTitle
               style={{
                 color: "black",
@@ -63,9 +63,9 @@ class Projects extends Component {
                 background:
                   "url(https://spin.atomicobject.com/wp-content/uploads/20171005133008/React-Typescript.png) center / cover"
               }}
-            />
+            /> 
             <CardText>
-              App: Tic Tac Toe Game <br />
+              <b>App: Tic Tac Toe Game</b><br />
               Technologies: React and typescript.
             </CardText>
             <CardActions border>
@@ -91,16 +91,13 @@ class Projects extends Component {
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/679/1*qUlxDdY3T-rDtJ4LhLGkEg.png) center / cover"
+                  "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
               }}
             >
-              React Project #1
             </CardTitle>
             <CardText>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-              voluptatum sequi id ut officia! Tempora repudiandae beatae
-              architecto rem necessitatibus distinctio hic, non inventore
-              molestias id sunt eligendi? Reprehenderit, distinctio?
+               <b>App: Todo App</b><br />
+              Technologies: React and typescript.
             </CardText>
             <CardActions border>
               <Button colored>Github</Button>
