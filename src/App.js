@@ -39,7 +39,7 @@ class App extends Component {
               </Link>
             }
           >
-            <Navigation>
+            <Navigation className="nav-side">
               <Link to="/resume">Resume</Link>
               <Link to="/aboutme">About me</Link>
               <Link to="/projects">Projects</Link>

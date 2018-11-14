@@ -16,7 +16,7 @@ import {
 class Reactjs extends Component{
     render(){
         return(
-            <div className="projects-grid" style={{marginTop: "20px"}}>
+            <div className="projects-grid" style={{marginTop: "40px"}}>
           {/*Project 1 */}
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle

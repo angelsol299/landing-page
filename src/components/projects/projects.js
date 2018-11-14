@@ -50,6 +50,8 @@ class Projects extends Component {
     return (
       <div className="category-tabs" style={{ marginTop: "60px" }}>
         <Tabs
+        style={{backgroundColor:"white"}}
+          className="tabs-bar"
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
