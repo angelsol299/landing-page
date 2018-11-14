@@ -13,6 +13,7 @@ import {
   IconButton
 } from "react-mdl";
 import Reactjs from './react';
+import Php from './php';
 
 class Projects extends Component {
   constructor(props) {
@@ -27,9 +28,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is PHP</h1>
-        </div>
+        <Php/>
       );
     } else if (this.state.activeTab === 2) {
       return (

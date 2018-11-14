@@ -34,12 +34,6 @@
   position: absolute;
 }
 
-@media only screen and (max-width: 1025px) {
-  .nav-side{
-    display: none;
-  }
-}
-
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -94,9 +88,6 @@
 }
 {/*Projects */}
 
-.tabs-bar{
-  position: fixed;
-}
 
 .projects-grid {
   display: grid;

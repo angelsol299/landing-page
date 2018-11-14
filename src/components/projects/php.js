@@ -13,7 +13,7 @@ import {
   IconButton
 } from "react-mdl";
 
-class Reactjs extends Component{
+class Php extends Component{
     render(){
         return(
             <div className="projects-grid" style={{marginTop: "40px"}}>
@@ -25,12 +25,12 @@ class Reactjs extends Component{
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
+                  "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
               }}
             />
             <CardText>
-              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Poketimes</span></b> <br />
-              Technologies: React and redux
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Under Development</span></b> <br />
+              Technologies: under development
             </CardText>
             <CardActions border>
               <Button
@@ -55,12 +55,12 @@ class Reactjs extends Component{
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/1200/1*Ukhx76VQ8E6JXEW7xfIzSA.png) center / cover"
+                  "url(https://cdn.intellipaat.com/mediaFiles/2014/11/PHP-MySQL-Training.jpg) center / cover"
               }}
             /> 
             <CardText>
-              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Tic Tac Toe Game</span></b><br />
-              Technologies: React and Typescript.
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>Journal</span></b><br />
+              Technologies: PHP and MySQL.
             </CardText>
             <CardActions border>
               <Button
@@ -77,7 +77,7 @@ class Reactjs extends Component{
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/*project 3 */}
+          {/*Project 3 */}
           <Card shadow={0} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -85,18 +85,21 @@ class Reactjs extends Component{
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://miro.medium.com/max/838/1*m_q0YKyWw7Qqbh-qklinTw.png) center / cover"
+                  "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
               }}
-            >
-            </CardTitle>
+            />
             <CardText>
-               <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Todo App</span></b><br />
-              Technologies: React and Redux.
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Under Development</span></b> <br />
+              Technologies: under development
             </CardText>
             <CardActions border>
-              <Button           href="https://github.com/angelsol299/React-redux-todoapp"
-                 colored
-                 target="_blank">Github</Button>
+              <Button
+                href="https://github.com/angelsol299/react-redux-poketimes"
+                colored
+                target="_blank"
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
@@ -104,7 +107,7 @@ class Reactjs extends Component{
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/*project 4 */}
+          {/*Project 4 */}
           <Card shadow={0} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -112,20 +115,21 @@ class Reactjs extends Component{
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+                  "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
               }}
-            >
-            </CardTitle>
+            />
             <CardText>
-               <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: InstaLink</span></b><br />
-              Technologies: React, Redux and Firebase.
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Under Development</span></b> <br />
+              Technologies: under development
             </CardText>
             <CardActions border>
-              <Button 
-                 href="https://github.com/angelsol299/instalink"
+              <Button
+                href="https://github.com/angelsol299/react-redux-poketimes"
                 colored
                 target="_blank"
-              >Github</Button>
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
@@ -133,7 +137,7 @@ class Reactjs extends Component{
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/*project 5 */}
+          {/*Project 5 */}
           <Card shadow={0} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -141,20 +145,21 @@ class Reactjs extends Component{
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+                  "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
               }}
-            >
-            </CardTitle>
+            />
             <CardText>
-               <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Contact Manager</span></b><br />
-              Technologies: React, Redux and Firebase.
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Under Development</span></b> <br />
+              Technologies: under development
             </CardText>
             <CardActions border>
-              <Button 
-                 href="https://github.com/angelsol299/contactmanager"
+              <Button
+                href="https://github.com/angelsol299/react-redux-poketimes"
                 colored
                 target="_blank"
-              >Github</Button>
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
@@ -162,28 +167,29 @@ class Reactjs extends Component{
               <IconButton name="share" />
             </CardMenu>
           </Card>
-          {/*project 6 */}
-          <Card shadow={0} style={{ minWidth: "450", margin: "auto"}}>
+          {/*Project 6 */}
+          <Card shadow={0} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "black",
                 height: "176px",
                 width: "100%",
                 background:
-                  "url(https://cdn-images-1.medium.com/max/2000/1*ytMIcp6uu6UIZpApG1LFYg.png) center / cover"
+                  "url(https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2017/07/php-leader.png?resize=2200%2C1125) center / cover"
               }}
-            >
-            </CardTitle>
+            />
             <CardText>
-               <b><span className="projects-title" style={{fontSize:"20px", color:"#0099cc"}}>App: Client Panel</span></b><br />
-              Technologies: React, Redux and Firebase.
+              <b><span style={{fontSize:"20px", color:"#0099cc"}}>App: Under Development</span></b> <br />
+              Technologies: under development
             </CardText>
             <CardActions border>
-              <Button 
-                 href="https://github.com/angelsol299/clientpanel"
+              <Button
+                href="https://github.com/angelsol299/react-redux-poketimes"
                 colored
                 target="_blank"
-              >Github</Button>
+              >
+                Github
+              </Button>
               <Button colored>CodePen</Button>
               <Button colored>LivedDemo</Button>
             </CardActions>
@@ -196,4 +202,4 @@ class Reactjs extends Component{
     }
 }
 
-export default Reactjs;
+export default Php;
