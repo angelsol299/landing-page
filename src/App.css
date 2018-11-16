@@ -241,7 +241,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #a0a0a0;
+  background-color: #3f7cab;
   color: white;
   font-size: 26px;
   padding: 18px 28px;
@@ -252,8 +252,7 @@
 }
 
 .container .btn:hover {
-  background-color: black;
-  opacity: 0.5;
+  background-color: #a1cced;
 }
 
 /*Resume page css*/

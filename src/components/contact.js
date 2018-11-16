@@ -12,17 +12,24 @@ class Contact extends Component {
             alt="Snow"
             style={{ width: "100%" }}
           />
-          <button href="#contact" class="btn">
-            Contact me
+          <button className="btn">
+            <a
+              href="#contact"
+              style={{ textDecoration: "none", color: "white" }}
+            >
+              Contact me
+            </a>
           </button>
         </div>
         <div id="contact">
+          <br />
+          <br />
           <Grid className="contact-grid">
             <Cell col={6}>
               <div class="cognito" />
             </Cell>
             <Cell col={6}>
-              <h2>Contact Me</h2>
+              <h2>Get in touch</h2>
               <hr />
               <div className="contact-list">
                 <List>
