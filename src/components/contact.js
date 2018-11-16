@@ -30,8 +30,7 @@ class Contact extends Component {
             </Cell>
             <Cell col={6}>
               <h2>Get in touch</h2>
-              <hr />
-              <div className="contact-list">
+              <div className="contact-list" style={{ marginLeft: "105px" }}>
                 <List>
                   <ListItem>
                     <ListItemContent
@@ -41,7 +40,10 @@ class Contact extends Component {
                       }}
                     >
                       {" "}
-                      <i className="fa fa-phone-square" aria-hidden="true" />
+                      <i
+                        className="fa fa-phone-square icon"
+                        aria-hidden="true"
+                      />
                       3314050542
                     </ListItemContent>
                   </ListItem>
@@ -51,8 +53,11 @@ class Contact extends Component {
                       style={{ fontSize: "25px", fontFamily: "Anton" }}
                     >
                       {" "}
-                      <i className="fa fa-envelope-square" aria-hidden="true" />
-                      info@angelosoria.com
+                      <i
+                        className="fa fa-envelope-square icon"
+                        aria-hidden="true"
+                      />
+                      <span className="contact-text">info@angelosoria.com</span>
                     </ListItemContent>
                   </ListItem>
 
@@ -61,7 +66,10 @@ class Contact extends Component {
                       style={{ fontSize: "25px", fontFamily: "Anton" }}
                     >
                       {" "}
-                      <i className="fa fa-twitter-square" aria-hidden="true" />
+                      <i
+                        className="fa fa-twitter-square icon"
+                        aria-hidden="true"
+                      />
                       @angelsol299
                     </ListItemContent>
                   </ListItem>

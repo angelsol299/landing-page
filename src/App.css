@@ -232,7 +232,7 @@
 .container img {
   width: 100%;
   height: 100%;
-  opacity: 0.94;
+  opacity: 0.9;
 }
 
 .container .btn {
@@ -253,6 +253,14 @@
 
 .container .btn:hover {
   background-color: #a1cced;
+}
+
+.icon {
+  color: #3f7cab;
+}
+
+.contact-text {
+  padding-bottom: 10px;
 }
 
 /*Resume page css*/
