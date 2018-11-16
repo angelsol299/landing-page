@@ -15,7 +15,6 @@ class Contact extends Component {
             Contact me
           </button>
         </div>
-
         <Grid className="contact-grid" id="contact">
           <Cell col={6}>
             <div class="cognito" />
