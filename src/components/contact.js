@@ -13,7 +13,7 @@ class Contact extends Component {
             style={{ width: "100%" }}
           />
           <button href="#contact" class="btn">
-            <a href="#contact">Contact me</a>
+            Contact me
           </button>
         </div>
         <div id="contact">
