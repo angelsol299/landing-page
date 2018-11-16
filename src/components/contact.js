@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
@@ -12,54 +13,56 @@ class Contact extends Component {
             style={{ width: "100%" }}
           />
           <button href="#contact" class="btn">
-            Contact me
+            <a href="#contact">Contact me</a>
           </button>
         </div>
-        <Grid className="contact-grid" id="contact">
-          <Cell col={6}>
-            <div class="cognito" />
-          </Cell>
-          <Cell col={6}>
-            <h2>Contact Me</h2>
-            <hr />
-            <div className="contact-list">
-              <List>
-                <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: "25px",
-                      fontFamily: "Anton"
-                    }}
-                  >
-                    {" "}
-                    <i className="fa fa-phone-square" aria-hidden="true" />
-                    3314050542
-                  </ListItemContent>
-                </ListItem>
+        <div id="contact">
+          <Grid className="contact-grid">
+            <Cell col={6}>
+              <div class="cognito" />
+            </Cell>
+            <Cell col={6}>
+              <h2>Contact Me</h2>
+              <hr />
+              <div className="contact-list">
+                <List>
+                  <ListItem>
+                    <ListItemContent
+                      style={{
+                        fontSize: "25px",
+                        fontFamily: "Anton"
+                      }}
+                    >
+                      {" "}
+                      <i className="fa fa-phone-square" aria-hidden="true" />
+                      3314050542
+                    </ListItemContent>
+                  </ListItem>
 
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    {" "}
-                    <i className="fa fa-envelope-square" aria-hidden="true" />
-                    info@angelosoria.com
-                  </ListItemContent>
-                </ListItem>
+                  <ListItem>
+                    <ListItemContent
+                      style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    >
+                      {" "}
+                      <i className="fa fa-envelope-square" aria-hidden="true" />
+                      info@angelosoria.com
+                    </ListItemContent>
+                  </ListItem>
 
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "25px", fontFamily: "Anton" }}
-                  >
-                    {" "}
-                    <i className="fa fa-twitter-square" aria-hidden="true" />
-                    @angelsol299
-                  </ListItemContent>
-                </ListItem>
-              </List>
-            </div>
-          </Cell>
-        </Grid>
+                  <ListItem>
+                    <ListItemContent
+                      style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    >
+                      {" "}
+                      <i className="fa fa-twitter-square" aria-hidden="true" />
+                      @angelsol299
+                    </ListItemContent>
+                  </ListItem>
+                </List>
+              </div>
+            </Cell>
+          </Grid>
+        </div>
       </div>
     );
   }
