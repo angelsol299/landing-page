@@ -7,18 +7,7 @@ class Contact extends Component {
       <div className="contact-body" style={{ marginTop: "70px" }}>
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Angel Osoria</h2>
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
-            <p style={{ width: "75%", margin: "auto", paddingTop: "2em" }}>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam
-              qui excepturi exercitationem necessitatibus error aliquid
-              accusantium, voluptatum sit quos explicabo repellendus, dicta
-              perspiciatis vero odio atque enim officia facere in.
-            </p>
+            <div class="cognito" />
           </Cell>
           <Cell col={6}>
             <h2>Contact Me</h2>
