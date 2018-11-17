@@ -44,7 +44,7 @@ class Contact extends Component {
                         className="fa fa-phone-square icon"
                         aria-hidden="true"
                       />
-                      3314050542
+                      <span className="contact-span">3314050542</span>
                     </ListItemContent>
                   </ListItem>
 
