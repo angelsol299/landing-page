@@ -66,10 +66,16 @@ class Contact extends Component {
                       style={{ fontSize: "25px", fontFamily: "Anton" }}
                     >
                       {" "}
-                      <i
-                        className="fa fa-twitter-square icon"
-                        aria-hidden="true"
-                      />
+                      <a
+                        href="https://twitter.com/angelsol299"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <i
+                          className="fa fa-twitter-square icon"
+                          aria-hidden="true"
+                        />
+                      </a>
                       <span className="contact-span">@angelsol299</span>
                     </ListItemContent>
                   </ListItem>
