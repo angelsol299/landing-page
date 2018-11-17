@@ -29,7 +29,7 @@ class Contact extends Component {
               <div class="cognito" />
             </Cell>
             <Cell col={6}>
-              <h2>Get in touch</h2>
+              <h2 style={{ fontSize: "50px" }}>Get in touch</h2>
               <div className="contact-list" style={{ marginLeft: "105px" }}>
                 <List>
                   <ListItem>
@@ -57,7 +57,7 @@ class Contact extends Component {
                         className="fa fa-envelope-square icon"
                         aria-hidden="true"
                       />
-                      <span className="contact-text">info@angelosoria.com</span>
+                      <span className="contact-span">info@angelosoria.com</span>
                     </ListItemContent>
                   </ListItem>
 
@@ -70,7 +70,20 @@ class Contact extends Component {
                         className="fa fa-twitter-square icon"
                         aria-hidden="true"
                       />
-                      @angelsol299
+                      <span className="contact-span">@angelsol299</span>
+                    </ListItemContent>
+                  </ListItem>
+
+                  <ListItem>
+                    <ListItemContent
+                      style={{ fontSize: "25px", fontFamily: "Anton" }}
+                    >
+                      {" "}
+                      <i
+                        className="fa fa-youtube-square icon"
+                        aria-hidden="true"
+                      />
+                      <span className="contact-span">@angelsol299</span>
                     </ListItemContent>
                   </ListItem>
                 </List>
