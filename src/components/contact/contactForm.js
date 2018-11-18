@@ -5,6 +5,7 @@ class ContactForm extends Component {
     return (
       <div>
         <h2>Contact me</h2>
+        <br />
         <label className="formLabel" htmlFor="">
           Name:
         </label>
@@ -26,7 +27,7 @@ class ContactForm extends Component {
         <label
           className="formLabel"
           htmlFor=""
-          style={{ marginLeft: "-140px" }}
+          style={{ marginLeft: "-185px" }}
         >
           Content:
           <br />
@@ -38,7 +39,8 @@ class ContactForm extends Component {
           rows="10"
           style={{
             border: "1.5px solid #26AEDF",
-            borderRadius: "8px"
+            borderRadius: "8px",
+            padding: "0 25px"
           }}
         />
         <br />
