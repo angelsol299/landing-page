@@ -31,7 +31,16 @@ class ContactForm extends Component {
           Content:
           <br />
         </label>
-        <textarea name="" id="" cols="30" rows="10" />
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          style={{
+            border: "1.5px solid #26AEDF",
+            borderRadius: "8px"
+          }}
+        />
         <br />
         <button
           style={{
