@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 
-
 class ContactForm extends Component {
-    render() {
-      return (
-          <div>
+  render() {
+    return (
+      <div>
+        <label htmlFor="">Name:</label>
+        <input type="text" />
+      </div>
+    );
+  }
+}
 
-          </div>
-      )
-    }
-
-    export default ContactForm
+export default ContactForm;

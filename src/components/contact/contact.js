@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import GetInTouch from "./getInTouch";
+import ContactForm from "./contactForm";
+
 // import { Link } from "react-router-dom";
 
 class Contact extends Component {
@@ -26,74 +29,10 @@ class Contact extends Component {
           <br />
           <Grid className="contact-grid">
             <Cell col={6}>
-              <div class="cognito" />
+              <ContactForm />
             </Cell>
             <Cell col={6}>
-              <h2 style={{ fontSize: "50px" }}>Get in touch</h2>
-              <div className="contact-list" style={{ marginLeft: "105px" }}>
-                <List>
-                  <ListItem>
-                    <ListItemContent
-                      style={{
-                        fontSize: "25px",
-                        fontFamily: "Anton"
-                      }}
-                    >
-                      {" "}
-                      <i
-                        className="fa fa-phone-square icon"
-                        aria-hidden="true"
-                      />
-                      <span className="contact-span">3314050542</span>
-                    </ListItemContent>
-                  </ListItem>
-
-                  <ListItem>
-                    <ListItemContent
-                      style={{ fontSize: "25px", fontFamily: "Anton" }}
-                    >
-                      {" "}
-                      <i
-                        className="fa fa-envelope-square icon"
-                        aria-hidden="true"
-                      />
-                      <span className="contact-span">info@angelosoria.com</span>
-                    </ListItemContent>
-                  </ListItem>
-
-                  <ListItem>
-                    <ListItemContent
-                      style={{ fontSize: "25px", fontFamily: "Anton" }}
-                    >
-                      {" "}
-                      <a
-                        href="https://twitter.com/angelsol299"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i
-                          className="fa fa-twitter-square icon"
-                          aria-hidden="true"
-                        />
-                      </a>
-                      <span className="contact-span">@angelsol299</span>
-                    </ListItemContent>
-                  </ListItem>
-
-                  <ListItem>
-                    <ListItemContent
-                      style={{ fontSize: "25px", fontFamily: "Anton" }}
-                    >
-                      {" "}
-                      <i
-                        className="fa fa-youtube-square icon"
-                        aria-hidden="true"
-                      />
-                      <span className="contact-span">@angelsol299</span>
-                    </ListItemContent>
-                  </ListItem>
-                </List>
-              </div>
+              <GetInTouch />
             </Cell>
           </Grid>
         </div>
