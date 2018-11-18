@@ -2,7 +2,7 @@ import React from "react";
 import LandingPage from "./landingPage";
 import { Switch, Route } from "react-router-dom";
 import AboutMe from "./aboutMe";
-import Contact from "./contact";
+import Contact from "./contact/contact";
 import Projects from "./projects/projects";
 import Resume from "./resume";
 
