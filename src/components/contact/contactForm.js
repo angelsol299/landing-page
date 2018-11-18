@@ -8,19 +8,19 @@ class ContactForm extends Component {
         <label className="formLabel" htmlFor="">
           Name:
         </label>
-        <input type="text" />
+        <input type="text" className="contactInput" />
         <br />
         <br />
         <label className="formLabel" htmlFor="">
           Email:
         </label>
-        <input type="text" />
+        <input type="text" className="contactInput" />
         <br />
         <br />
         <label className="formLabel" htmlFor="">
           Phone:
         </label>
-        <input type="text" />
+        <input type="text" className="contactInput" />
         <br />
         <br />
         <label
@@ -33,7 +33,16 @@ class ContactForm extends Component {
         </label>
         <textarea name="" id="" cols="30" rows="10" />
         <br />
-        <button style={{}}>Send</button>
+        <button
+          style={{
+            padding: "8px 35px",
+            borderRadius: "5px",
+            backgroundColor: "#26AEDF",
+            color: "white"
+          }}
+        >
+          Send
+        </button>
       </div>
     );
   }

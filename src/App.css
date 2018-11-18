@@ -272,6 +272,11 @@
   margin-right: 15px;
 }
 
+.contactInput {
+  border: 1px solid green;
+  border-radius: 8px;
+}
+
 /*Resume page css*/
 
 @media only screen and (max-width: 839px) {
