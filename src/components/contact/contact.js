@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class Contact extends Component {
   render() {
