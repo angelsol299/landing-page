@@ -7,7 +7,7 @@ import Skills from "./skills";
 class Resume extends Component {
   render() {
     return (
-      <div style={{ marginTop: "48px" }}>
+      <div style={{ marginTop: "108px", marginBottom: "60px" }}>
         <Grid>
           <Cell col={4} className="resume-left-col">
             <div style={{ textAlign: "center" }}>
@@ -47,11 +47,17 @@ class Resume extends Component {
               <p>
                 <i>www.angelosoria.com</i>
               </p>
-
-              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
+              <hr
+                style={{
+                  borderTop: "3px solid #1D343D",
+                  width: "100%",
+                  marginTop: "225px",
+                  paddingTop: "-2000px"
+                }}
+              />
             </div>
           </Cell>
-          <Cell className="resume-right-col" col={8}>
+          <Cell className="resume-right-col" col={7}>
             <h2 className="resume-h2">Education</h2>
             <Education
               startYear={2017}
