@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
 import Reactjs from "./react";
 import Php from "./php";
+import Firebase from "./firebase";
 
 class Projects extends Component {
   constructor(props) {
@@ -15,11 +16,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return <Php />;
     } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1 style={{ color: "red" }}>Under construction</h1>
-        </div>
-      );
+      return <Firebase />;
     } else if (this.state.activeTab === 3) {
       return (
         <div>
@@ -41,7 +38,7 @@ class Projects extends Component {
         >
           <Tab>React</Tab>
           <Tab>PHP</Tab>
-          <Tab>VueJS</Tab>
+          <Tab>Firebase</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
 
