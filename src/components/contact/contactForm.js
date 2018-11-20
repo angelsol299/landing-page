@@ -38,9 +38,10 @@ class ContactForm extends Component {
           cols="30"
           rows="10"
           style={{
+            marginTop: "7px",
             border: "1.5px solid #26AEDF",
             borderRadius: "8px",
-            padding: "0 65px"
+            padding: "0 69px"
           }}
         />
         <br />
