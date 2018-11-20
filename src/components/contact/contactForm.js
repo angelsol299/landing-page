@@ -27,7 +27,7 @@ class ContactForm extends Component {
         <label
           className="formLabel"
           htmlFor=""
-          style={{ marginLeft: "-185px" }}
+          style={{ marginLeft: "-260px" }}
         >
           Content:
           <br />
@@ -40,16 +40,18 @@ class ContactForm extends Component {
           style={{
             border: "1.5px solid #26AEDF",
             borderRadius: "8px",
-            padding: "0 25px"
+            padding: "0 65px"
           }}
         />
         <br />
+        <br />
         <button
           style={{
-            padding: "8px 35px",
+            padding: "10px 65px",
             borderRadius: "5px",
             backgroundColor: "#26AEDF",
-            color: "white"
+            color: "white",
+            fontSize: "17px"
           }}
         >
           Send
