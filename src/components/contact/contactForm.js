@@ -4,7 +4,7 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        <h2>Contact me</h2>
+        <h2 className="h2-contact">Contact me</h2>
         <br />
         <label className="formLabel" htmlFor="">
           Name:

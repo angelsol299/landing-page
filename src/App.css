@@ -152,7 +152,7 @@
   }
 }
 
-.contact-grid h2 {
+.h2-about {
   font-size: 50px;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   color: #085078; /* fallback for old browsers */
@@ -280,6 +280,10 @@
   border: 1.5px solid #26aedf;
   border-radius: 8px;
   padding: 4px 105px;
+}
+
+.h2-contact {
+  font-family: "Oswald", Helvetica, sans-serif;
 }
 
 /*Resume page css*/
