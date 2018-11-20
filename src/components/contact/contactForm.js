@@ -27,7 +27,7 @@ class ContactForm extends Component {
         <label
           className="formLabel"
           htmlFor=""
-          style={{ marginLeft: "-260px" }}
+          style={{ marginLeft: "-340px" }}
         >
           Content:
           <br />
@@ -41,7 +41,7 @@ class ContactForm extends Component {
             marginTop: "7px",
             border: "1.5px solid #26AEDF",
             borderRadius: "8px",
-            padding: "0 69px"
+            padding: "0 105px"
           }}
         />
         <br />
