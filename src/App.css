@@ -45,6 +45,7 @@
   width: 75%;
   margin: auto;
   border-radius: 10px;
+  padding-bottom: 20px;
 }
 .banner-text h1 {
   font-size: 66px;
@@ -240,7 +241,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #3f7cab;
+  background-color: #11c1ed;
   color: white;
   font-size: 26px;
   padding: 18px 28px;
@@ -255,7 +256,7 @@
 }
 
 .icon {
-  color: #3f7cab;
+  color: #11c1ed;
 }
 
 .contact-text {
