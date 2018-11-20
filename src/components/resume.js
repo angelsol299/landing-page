@@ -52,7 +52,7 @@ class Resume extends Component {
             </div>
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
+            <h2 className="resume-h2">Education</h2>
             <Education
               startYear={2017}
               endYear={2019}

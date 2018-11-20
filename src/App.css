@@ -86,9 +86,8 @@
   font-size: 5em;
   padding: 8px;
 }
- {
-  /*Projects */
-}
+
+/*Projects */
 
 .projects-grid {
   display: grid;
@@ -289,21 +288,11 @@
 }
 
 .resume-right-col {
-  background: #0f2027; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #e6e6e6;
 
-  color: white;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
   padding: 2em;
 }
 
@@ -316,4 +305,8 @@
 
 .img-resume {
   border-radius: 30%;
+}
+
+.resume-h2 {
+  color: black;
 }
