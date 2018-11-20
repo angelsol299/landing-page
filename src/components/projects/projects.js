@@ -1,19 +1,7 @@
 import React, { Component } from "react";
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardActions,
-  CardText,
-  Button,
-  CardMenu,
-  IconButton
-} from "react-mdl";
-import Reactjs from './react';
-import Php from './php';
+import { Tabs, Tab, Grid, Cell } from "react-mdl";
+import Reactjs from "./react";
+import Php from "./php";
 
 class Projects extends Component {
   constructor(props) {
@@ -23,23 +11,19 @@ class Projects extends Component {
 
   toggleCategories() {
     if (this.state.activeTab === 0) {
-      return (
-        <Reactjs/>
-      );
+      return <Reactjs />;
     } else if (this.state.activeTab === 1) {
-      return (
-        <Php/>
-      );
+      return <Php />;
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>This is Vue JS</h1>
+          <h1 style={{ color: "red" }}>Under construction</h1>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
         <div>
-          <h1>This is Mongo DB</h1>
+          <h1 style={{ color: "red" }}>Under construction</h1>
         </div>
       );
     }
@@ -49,7 +33,7 @@ class Projects extends Component {
     return (
       <div className="category-tabs" style={{ marginTop: "60px" }}>
         <Tabs
-        style={{backgroundColor:"white"}}
+          style={{ backgroundColor: "white" }}
           className="tabs-bar"
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
