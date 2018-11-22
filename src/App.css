@@ -288,9 +288,12 @@
 
 /*Resume page css*/
 
-@media only screen and (max-width: 839px) {
-  .resume-left-col {
-    margin-left: 200;
+@media only screen and (max-width: 839px) and (min-width: 500px) {
+  .img-resume {
+    margin-left: 300px;
+  }
+  .query-uno {
+    margin-left: 300px;
   }
 }
 
@@ -303,17 +306,17 @@
   padding: 2em;
 }
 
-@media only screen and (max-width: 440px) {
-  .resume-right-col {
-    text-align: center;
-    text-justify: inter-word;
-  }
-}
-
 .img-resume {
   border-radius: 30%;
 }
 
 .resume-h2 {
   color: black;
+}
+
+@media only screen and (max-width: 440px) {
+  .resume-right-col {
+    text-align: center;
+    text-justify: inter-word;
+  }
 }

@@ -10,17 +10,21 @@ class Resume extends Component {
       <div style={{ marginTop: "108px", marginBottom: "60px" }}>
         <Grid>
           <Cell col={4} className="resume-left-col">
-            <div style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "center" }} className="query-right">
               <img
-                className="img-resume"
+                className="img-resume query-right"
                 src="https://image.ibb.co/ixaOAA/myAvatar.png"
                 alt="avatar"
                 style={{ height: "200px" }}
               />
             </div>
-            <div style={{ textAlign: "center" }}>
-              <h2 style={{ paddingTop: "0em" }}>Angel Osoria</h2>
-              <h4 style={{ color: "grey" }}>Front End Developer</h4>
+            <div style={{ textAlign: "center" }} className="query-right">
+              <h2 style={{ paddingTop: "0em" }} className="query-uno">
+                Angel Osoria
+              </h2>
+              <h4 style={{ color: "grey" }} className="query-uno">
+                Front End Developer
+              </h4>
               <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
