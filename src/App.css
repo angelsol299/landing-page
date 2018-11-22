@@ -290,9 +290,18 @@
 
 @media only screen and (max-width: 839px) and (min-width: 500px) {
   .img-resume {
-    margin-left: 300px;
+    margin-left: 250px;
   }
   .query-uno {
+    margin-left: 300px;
+  }
+  .query-hr {
+    margin-left: 140px;
+  }
+  .query-hr-none {
+    display: none;
+  }
+  .resume-right-col {
     margin-left: 300px;
   }
 }

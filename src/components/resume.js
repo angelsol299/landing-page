@@ -10,7 +10,7 @@ class Resume extends Component {
       <div style={{ marginTop: "108px", marginBottom: "60px" }}>
         <Grid>
           <Cell col={4} className="resume-left-col">
-            <div style={{ textAlign: "center" }} className="query-right">
+            <div style={{ textAlign: "center" }}>
               <img
                 className="img-resume query-right"
                 src="https://image.ibb.co/ixaOAA/myAvatar.png"
@@ -18,40 +18,47 @@ class Resume extends Component {
                 style={{ height: "200px" }}
               />
             </div>
-            <div style={{ textAlign: "center" }} className="query-right">
+            <div style={{ textAlign: "center" }}>
               <h2 style={{ paddingTop: "0em" }} className="query-uno">
                 Angel Osoria
               </h2>
               <h4 style={{ color: "grey" }} className="query-uno">
                 Front End Developer
               </h4>
-              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
-              <p>
+              <hr
+                style={{ borderTop: "3px solid #1D343D", width: "100%" }}
+                className="query-hr"
+              />
+              <p className="query-uno">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Assumenda cum tempore est esse explicabo sunt earum numquam?
                 Ducimus, incidunt ipsa fuga maiores at sunt illum, accusantium
                 omnis quae quidem dolores.
               </p>
-              <hr style={{ borderTop: "3px solid #1D343D", width: "100%" }} />
-              <h5>
+              <hr
+                className="query-hr"
+                style={{ borderTop: "3px solid #1D343D", width: "100%" }}
+              />
+              <h5 className="query-uno">
                 <b>Address</b>
               </h5>
-              <p>Norra statationsgatan, Stockholm</p>
-              <h5>
-                <b>Phone</b>
+              <p className="query-uno">Norra statationsgatan, Stockholm</p>
+              <h5 className="query-uno">
+                <b className="query-phone">Phone</b>
               </h5>
-              <p>3314050542</p>
+              <p className="query-uno">3314050542</p>
               <h5>
-                <b>Email</b>
+                <b className="query-uno">Email</b>
               </h5>
-              <p>info@angelosoria.com</p>
-              <h5>
+              <p className="query-uno">info@angelosoria.com</p>
+              <h5 className="query-uno">
                 <b>Web</b>
               </h5>
-              <p>
+              <p className="query-uno">
                 <i>www.angelosoria.com</i>
               </p>
               <hr
+                className="query-hr-none"
                 style={{
                   borderTop: "3px solid #1D343D",
                   width: "100%",
