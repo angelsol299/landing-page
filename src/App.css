@@ -301,8 +301,10 @@
   .query-hr-none {
     display: none;
   }
+
   .resume-right-col {
-    margin-left: 300px;
+    margin-left: 500px;
+    color: red;
   }
 }
 
