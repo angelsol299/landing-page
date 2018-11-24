@@ -8,7 +8,7 @@ class About extends Component {
       <div className="contact-body" style={{ marginTop: "70px" }}>
         <Grid className="contact-grid">
           <Cell col={10}>
-            <h2 className="h2-about">Hi, I am Angel</h2>
+            <h2 className="h2-about">Hi, I am Angel!</h2>
             <p
               style={{
                 //width: "75%",
@@ -22,8 +22,8 @@ class About extends Component {
                 I've studied management, entrepreneurship, economics and latelty
                 <b> Front End Development.</b> I've discover my passion for
                 technology since I was a young but I've never developed a
-                professional interest about it untill year 2017. I decieded
-                to go into <b> software development</b> when I wrote my{" "}
+                professional interest about it untill year 2017. I decieded to
+                go into <b> software development</b> when I wrote my{" "}
                 <Link
                   style={{
                     textDecoration: "none",
@@ -33,10 +33,11 @@ class About extends Component {
                 >
                   <b>master thesis</b>
                 </Link>{" "}
-                in economics about the relationship between automation
-                and unemployement. Once I discovered that most jobs will be
-                automated in the near future I decided that it was time to start this
-                excited journey and to be valuable in the job market for longer.
+                in economics about the relationship between automation and
+                unemployement. Once I discovered that most jobs will be
+                automated in the near future I decided that it was time to start
+                this excited journey and to be valuable in the job market for
+                longer.
               </span>
             </p>
             <p
