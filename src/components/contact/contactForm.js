@@ -21,7 +21,11 @@ class ContactForm extends Component {
         <label className="formLabel" htmlFor="">
           Phone:
         </label>
-        <input type="text" className="contactInput" />
+        <input
+          type="text"
+          className="contactInput"
+          style={{ marginLeft: "-6px" }}
+        />
         <br />
         <br />
         <label
