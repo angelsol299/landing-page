@@ -173,8 +173,7 @@
     left: -40px;
   }
   .contact-list {
-    padding-left: -55px;
-    margin-left: 55px;
+    margin-left: 65px;
   }
 }
 
@@ -360,5 +359,8 @@
   .resume-right-col {
     text-align: center;
     text-justify: inter-word;
+  }
+  .resume-left-col {
+    padding-bottom: -250px;
   }
 }
