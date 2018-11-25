@@ -150,6 +150,19 @@
   .contact-grid {
     margin-left: 20px;
   }
+  .formLabel1 {
+    margin-left: -10px;
+    color: green;
+  }
+
+  .textArea1 {
+    margin-left: -5px;
+    width: 130px;
+  }
+
+  .h2InTouch {
+    padding-top: 60px;
+  }
 }
 
 .h2-about {
@@ -274,6 +287,15 @@
   font-family: "Karla", arial;
   font-weight: bold;
   color: #1d3f65;
+}
+
+.formLabel1 {
+  margin-right: 15px;
+  font-size: 17px;
+  font-family: "Karla", arial;
+  font-weight: bold;
+  color: #1d3f65;
+  margin-left: "-340px";
 }
 
 .contactInput {

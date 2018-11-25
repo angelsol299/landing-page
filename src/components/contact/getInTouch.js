@@ -5,7 +5,9 @@ class GetInTouch extends Component {
   render() {
     return (
       <div>
-        <h2 style={{ marginLeft: "20px" }}>Get in touch</h2>
+        <h2 className="h2InTouch" style={{ marginLeft: "20px" }}>
+          Get in touch
+        </h2>
         <div className="contact-list" style={{ marginLeft: "105px" }}>
           <List>
             <ListItem>
