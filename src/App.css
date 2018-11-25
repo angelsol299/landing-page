@@ -163,6 +163,19 @@
   .h2InTouch {
     padding-top: 60px;
   }
+
+  .con2 {
+    display: none;
+  }
+
+  .contact-span {
+    top: 20px;
+    left: -40px;
+  }
+  .contact-list {
+    padding-left: -55px;
+    margin-left: 55px;
+  }
 }
 
 .h2-about {

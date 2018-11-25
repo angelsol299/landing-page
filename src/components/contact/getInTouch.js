@@ -8,7 +8,7 @@ class GetInTouch extends Component {
         <h2 className="h2InTouch" style={{ marginLeft: "20px" }}>
           Get in touch
         </h2>
-        <div className="contact-list" style={{ marginLeft: "105px" }}>
+        <div className="contact-list">
           <List>
             <ListItem>
               <ListItemContent

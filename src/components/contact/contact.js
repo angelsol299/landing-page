@@ -9,7 +9,7 @@ class Contact extends Component {
   render() {
     return (
       <div className="contact-body" style={{ marginTop: "30px" }}>
-        <div class="container">
+        <div class="container con2">
           <img
             src="https://wallpapertag.com/wallpaper/full/7/1/f/248315-gorgerous-coding-background-1920x1080.jpg"
             alt="Snow"
